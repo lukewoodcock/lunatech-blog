@@ -1,0 +1,50 @@
+= A road to AI solutions
+lukewoodcock
+v1.0, 2025-06-06
+:toc: left
+:toc-title: Table of Contents
+:toclevels: 3
+:title: A road to AI solutions
+:imagesdir: ../media/2025-06-06-a-road-to-ai-solutions
+:lang: en
+// :tags: [LLM, natural language processing, transformers, machine learning, AI, language models, probabilistic text generation, statistical language models, n-gram, bigram, attention mechanisms, vector embeddings, tokenization, context windows, self-attention, neural networks, NLP fundamentals, AI architecture, language understanding, transformer architecture]
+
+[#introduction]
+== Introduction
+
+I've been playing around with n8n building some workflows that use LLMs to provide insight into some of our data, e.g. Slack messages, toggl, and hopefully soon our wiki. If I'm honest, I've had varying degrees of success. Being fresh to AI tooling my expectations have changed.
+
+I'm writing this blog post to try and synthesize some of my thoughts and experiences into a roadmap or proposal for how Lunatech might be able to leverage our existing technical strengths while gradually building AI capabilities and experience.
+
+The key themes I've emphasized are:
+
+Leveraging existing expertise - Containerization, API, and integration skills I believe might be a competitive advantage in the AI space
+Practical over theoretical - Focus on AI engineering and operations rather than trying to become AI researchers
+Client education - Positioning ourselves as the voice of reason in an often-hyped field
+Hybrid solutions - Starting with AI that augments existing systems rather than replacing them
+Risk management - Building the operational safeguards that many AI projects lack
+
+== Foundation Building
+=== Leverage What We Already Know
+
+Our experience with Docker, Kubernetes, CI/CD pipelines, and Gradle projects isn't just relevant to AI—it's essential. I've seen many impressive demos, but most I've seen are far from production ready.
+
+Some starting points for us to look at:
+
+* How to extend our existing containerization patterns to include ML model serving
+* How to adapt our GitHub (or Jenkins) workflows to handle ML model versioning and deployment
+* How to build APIs that abstract AI complexity from client systems
+* Develop monitoring frameworks that can handle probabilistic outputs alongside traditional metrics
+
+In short, focus on building the operational excellence that makes AI actually work in production.
+
+=== Skills Investment
+We need to invest in building AI engineering skills, and some theoretical knowledge.
+
+* Train existing team members in MLOps practices
+** Learning how to build and deploy AI models in production
+** Understanding the nuances of model serving, scaling, and monitoring
+** Gaining practical experience with tools like Ollama, LangChain, and n8n
+** Learn to integrate pre-trained models and APIs before building custom solutions
+** Understand data pipeline design for ML workloads
+** Develop expertise in model monitoring and performance tracking
